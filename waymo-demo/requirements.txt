@@ -1,0 +1,8 @@
+ultralytics
+opencv-python
+numpy
+torch
+tensorflow
+waymo-open-dataset-tf-2-11-0
+scikit-learn
+pyyaml

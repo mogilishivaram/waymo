@@ -1,0 +1,16 @@
+project_root: .
+datasets:
+  waymo_raw: input
+  extracted_images: data/images
+  object_tracking: data/yolo_vehicle
+  traffic_lights: datasets/traffic_lights
+  lanes: datasets/lanes
+use_cases:
+  object_tracking:
+    model: use_cases/object_tracking/models/yolov8n.pt
+    trained_model: use_cases/object_tracking/models/waymo_vehicle_baseline-3/weights/best.pt
+    output: outputs/object_tracking_demo.mp4
+  traffic_light_detection:
+    output: outputs/traffic_light_demo.mp4
+  lane_detection:
+    output: outputs/lane_detection_demo.mp4
