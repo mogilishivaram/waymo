@@ -4,3 +4,4 @@
 **/*.py[cod]
 **/.pytest_cache/
 **/*.cache
+waymo-demo.zip
