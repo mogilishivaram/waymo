@@ -1,0 +1,12 @@
+path: D:/shivaram/waymo-demo/datasets/traffic_lights/cleaned
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: red
+  1: yellow
+  2: green
+  3: 'off'
+  4: wait_on
+

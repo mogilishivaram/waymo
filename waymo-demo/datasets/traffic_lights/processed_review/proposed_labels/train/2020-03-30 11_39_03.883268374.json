@@ -1,0 +1,70 @@
+{
+  "image": "2020-03-30 11_39_03.883268374.jpg",
+  "split": "train",
+  "status": "annotated",
+  "notes": "Manually review",
+  "class_mapping_provisional": {
+    "0": "red",
+    "1": "yellow",
+    "2": "green",
+    "3": "off",
+    "4": "wait_on"
+  },
+  "boxes": [
+    {
+      "class_id": 0,
+      "xyxy": [
+        829.0,
+        607.0,
+        858.0,
+        642.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "xyxy": [
+        561.0,
+        633.0,
+        574.0,
+        652.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "xyxy": [
+        545.0,
+        620.0,
+        564.0,
+        636.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "xyxy": [
+        826.0,
+        596.0,
+        859.0,
+        648.0
+      ]
+    },
+    {
+      "class_id": 0,
+      "xyxy": [
+        540.0,
+        614.0,
+        563.0,
+        635.0
+      ]
+    },
+    {
+      "class_id": 2,
+      "xyxy": [
+        557.0,
+        633.0,
+        577.0,
+        650.0
+      ]
+    }
+  ],
+  "warning": "Proposed labels only. Verify class mapping and annotation policy before training."
+}

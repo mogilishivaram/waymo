@@ -1,0 +1,25 @@
+{
+  "image": "2020-03-30 11_44_51.161684229.jpg",
+  "split": "val",
+  "status": "annotated",
+  "notes": "Manually review",
+  "class_mapping_provisional": {
+    "0": "red",
+    "1": "yellow",
+    "2": "green",
+    "3": "off",
+    "4": "wait_on"
+  },
+  "boxes": [
+    {
+      "class_id": 1,
+      "xyxy": [
+        606.0,
+        476.0,
+        642.0,
+        518.0
+      ]
+    }
+  ],
+  "warning": "Proposed labels only. Verify class mapping and annotation policy before training."
+}

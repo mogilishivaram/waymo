@@ -1,0 +1,13 @@
+# DRAFT ONLY: numeric class ordering is supported by local visual review and
+# converted-dataset conventions, but is not confirmed by an embedded source
+# class manifest. Do not use for final training until the mapping is confirmed.
+path: coco-s2tld
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: red
+  1: yellow
+  2: green
+  3: off
+  4: wait_on
