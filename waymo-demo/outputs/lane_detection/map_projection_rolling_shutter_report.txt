@@ -1,0 +1,22 @@
+WAYMO ROLLING-SHUTTER MAP PROJECTION
+Camera: FRONT (1)
+Image dimensions: 1920 x 1280
+Rolling-shutter direction enum: 2
+Readout duration: 0.044258358 seconds
+Pose timestamp offset: 0.004500866 seconds
+Features: road_line only
+
+ID=6 | type=TYPE_BROKEN_SINGLE_YELLOW | vertices=28 | projected=0 | drawn_segments=0
+ID=9 | type=TYPE_SOLID_DOUBLE_YELLOW | vertices=32 | projected=0 | drawn_segments=0
+ID=23 | type=TYPE_SOLID_DOUBLE_YELLOW | vertices=118 | projected=21 | drawn_segments=13
+ID=29 | type=TYPE_BROKEN_SINGLE_YELLOW | vertices=110 | projected=110 | drawn_segments=109
+ID=41 | type=TYPE_BROKEN_SINGLE_YELLOW | vertices=188 | projected=188 | drawn_segments=187
+ID=43 | type=TYPE_BROKEN_SINGLE_YELLOW | vertices=213 | projected=210 | drawn_segments=105
+ID=45 | type=TYPE_BROKEN_SINGLE_YELLOW | vertices=102 | projected=102 | drawn_segments=101
+
+--- SUMMARY ---
+Road-line features processed: 7
+Features with visible segments: 5
+Map vertices processed: 791
+Successfully projected vertices: 631
+Visible segments drawn: 515
