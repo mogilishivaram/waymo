@@ -1,0 +1,5 @@
+path: D:/shivaram/waymo-demo/data/yolo_vehicle
+train: images/train
+val: images/val
+names:
+  0: vehicle
