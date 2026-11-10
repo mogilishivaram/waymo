@@ -1,44 +1,6 @@
-# Python environments and caches
-.venv/
-.venv-*/
+**/.venv/
+**/.venv-*/
 **/__pycache__/
 **/*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# Local configuration and secrets
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-
-# Downloaded datasets and raw inputs
-**/datasets/
-**/data/
-**/input/
-**/raw/
-**/*.tfrecord
-**/*.zip
-
-# Generated outputs, runs, and media
-**/outputs/
-**/runs/
-**/demo/*result*
-**/demo/contrast_*
-**/demo/interface_*
-**/demo/road_test*
-**/demo/test_road*
-**/*.mp4
-
-# Trained model binaries
-**/*.pth
-**/*.pt
-**/*.t7
-**/*.onnx
-**/*.ckpt
-
-# Embedded repository metadata
-**/.git/
-**/.git-local-backup/
+**/.pytest_cache/
+**/*.cache
